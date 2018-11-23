@@ -15,8 +15,8 @@ source:
   sha256: c506e444605c9c1bdb71def325983be2beaeeceafc6b1f64721e228927535d5a
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -42,8 +42,7 @@ about:
     nominal data: ICC, Finn-Coefficient, Robinson''A, Kendall''s W, Cohen''s Kappa,
     ...'
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
