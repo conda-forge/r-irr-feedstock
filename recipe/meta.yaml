@@ -1,4 +1,4 @@
-{% set version = '0.84' %}
+{% set version = "0.84.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 {% set cran_mirror = 'https://cran.r-project.org' %}
@@ -12,11 +12,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/irr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/irr/irr_{{ version }}.tar.gz
-  sha256: c506e444605c9c1bdb71def325983be2beaeeceafc6b1f64721e228927535d5a
+  sha256: e7bae8476b723a2246564c013194e8b7fcc9b34affc0ab5fcd55875231f544c3
 
 build:
   noarch: generic
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
