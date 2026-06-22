@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-irr-feedstock
 
 Home: http://www.r-project.org
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Summary: Coefficients of Interrater Reliability and Agreement for quantitative, ordinal and nominal data: ICC, Finn-Coefficient, Robinson'A, Kendall's W, Cohen's Kappa, ...
 
